@@ -1,0 +1,64 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+#title {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 4rem;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+a {
+  color: #d77fa1;
+}
+
+main {
+  background-color: #d6e5fa;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+#img-div {
+  background-color: #fff9f9;
+  padding: 1rem;
+}
+
+#img-div img {
+  height: auto;
+  align-self: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  margin: 1.5rem 0;
+}
+
+ul {
+  text-align: left;
+  margin: 0 auto 5rem auto;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  margin-bottom: 5rem;
+}
